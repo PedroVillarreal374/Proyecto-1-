@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(154, 148, 148, 0.932);
+}
+
+header{
+    font-family:ARIAL BLACK;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+nav {
+    background-color: rgb(87, 86, 88);
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(160, 82, 30);
+}
+.padre{
+    display: flex;
+    
+}
+.hijo1{
+    width: 70%;
+    padding: 3%;
+}
+.hijo2{
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
